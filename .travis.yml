@@ -13,10 +13,10 @@ deploy:
     region: "ap-south-1"
     app: "Docker"
     env: "Docker-env"
-    bucket_name: "abhishekDocker"
+    bucket_name: "elasticbeanstalk-ap-south-1-139522873616"
     bucket_path: "Docker"
     on:
         branch: master
     access_key_id: "$AWS_ACCESS_KEY"
     secret_access_key: "$AWS_SECRET_KEY"
-      
+    
